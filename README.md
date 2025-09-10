@@ -1,16 +1,16 @@
-Premier League Data Analysis and Prediction Project
-Overview
-This project consists of two main components:
+##Premier League Data Analysis and Prediction Project
+##Overview
+##This project consists of two main components:
 
 Web Scraping & Data Processing: A Jupyter Notebook that scrapes Premier League data from FBref.com and processes it into a structured format
 
 Prediction & Visualization: Python code that analyzes the processed data to predict next season's winner and creates visualizations
 
-Web Scraping Notebook (webscraping.ipynb)
+##Web Scraping Notebook (webscraping.ipynb)
 Purpose
 This notebook collects and processes Premier League football statistics from FBref.com for both the 2023-2024 and 2024-2025 seasons.
 
-Key Steps
+##Key Steps
 Import Libraries: Uses pandas for data manipulation
 
 Data Collection:
@@ -31,7 +31,7 @@ Data Export:
 
 Saves the processed data to a CSV file (premier_league_standings_filtered.csv)
 
-Output
+##Output
 Creates a comprehensive dataset with the following columns for each team:
 
 Current season performance metrics (Points, Wins, Goals, etc.)
@@ -40,11 +40,11 @@ Current season performance metrics (Points, Wins, Goals, etc.)
 
 2025 projected squad characteristics
 
-Prediction & Visualization Code
+##Prediction & Visualization Code
 Purpose
 Analyzes the processed data to predict the winner of the next Premier League season and creates visualizations to support the analysis.
 
-Key Steps
+##Key Steps
 Data Loading & Preparation:
 
 Loads the processed CSV data
@@ -53,7 +53,7 @@ Filters teams with complete 2025 data
 
 Calculates year-over-year changes in squad characteristics
 
-Prediction Model:
+##Prediction Model:
 
 Uses Linear Regression with multiple factors:
 
@@ -69,7 +69,7 @@ Expected Goals (xG)
 
 Adds randomness to simulate uncertainty in predictions
 
-Visualization:
+##Visualization:
 
 Creates four comprehensive plots:
 
@@ -81,7 +81,7 @@ Squad age comparison between 2024 and 2025
 
 Predicted standings for next season
 
-Results:
+##Results:
 
 Identifies Liverpool as the predicted winner for next season
 
@@ -89,7 +89,7 @@ Provides detailed comparison of top contenders
 
 Outputs full predicted standings table
 
-Key Features
+##Key Features
 Uses machine learning (Linear Regression) for prediction
 
 Incorporates multiple performance metrics
@@ -98,14 +98,14 @@ Provides visual evidence to support predictions
 
 Highlights Liverpool's strengths: dominant current performance, strong goal difference, and sustainable attacking metrics
 
-How to Use
+##How to Use
 Run the Jupyter Notebook to scrape and process the latest data
 
 Execute the prediction code to generate analysis and visualizations
 
 Review the visualizations to understand team performance and predictions
 
-Dependencies
+##Dependencies
 pandas
 
 numpy
@@ -118,7 +118,7 @@ scikit-learn
 
 Jupyter Notebook
 
-Data Sources
+##Data Sources
 All data is scraped from FBref.com, a comprehensive football statistics website.
 
 Note
